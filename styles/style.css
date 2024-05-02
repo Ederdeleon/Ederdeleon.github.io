@@ -18,7 +18,7 @@ header p{
     margin-left: 5%;
 }
  nav ul li {
-    font-size: 40px;   
+    font-size: 3vw;   
     margin: 10px 40px;
     list-style: none;
     display: inline-block;
@@ -43,14 +43,18 @@ header p{
 }
 
 main {
-    color: #FFFAE3;
+    color: black;
+}
+#text-container {
+    position: absolute;
+    margin-top:-58.5vw;
 }
 #picture-section p {
     color: white;
     font-size: 3vw;
     margin: 0;
     margin-left: 50vw;
-    padding-top: 4vh;
+    padding-top: 4vw;
 }
 #picture-section #p-nopadding {
     padding-top:0;
@@ -61,8 +65,21 @@ h1 {
     margin:0;
     margin-left: 50vw;
 }
+ p#name {
+    position: absolute;
+    margin-top:-15vw;
+    font-size: 3vw;
+    right: 6vw;
+}
+.highlight {
+    color: #9BC53D; 
+}
 h2 {
     margin: 0;
+    text-align: center;
+    padding: 2vw;
+    font-size: 3vw;
+    color:white;
 }
 h3 {
     margin: 0;   
