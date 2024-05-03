@@ -1,6 +1,7 @@
 body {
     background-color: #ffffff;
     margin: 0;
+    font-family: "Anek Malayalam", sans-serif;
 }
 header {
     display: flex;
@@ -40,11 +41,12 @@ main {
 }
 #text-container {
     position: absolute;
-    margin-top:-52vw;
+    margin-top:-48vw;
+    font-family: "Aclonica", sans-serif;
 }
 #picture-section p {
     color: white;
-    font-size: 2.5vw;
+    font-size: 2vw;
     margin: 0;
     margin-left: 43vw;
     padding-top: 4vw;
@@ -54,9 +56,9 @@ main {
 }
 h1 {
     color: white;
-    font-size: 8vw;
+    font-size: 7vw;
     margin:0;
-    margin-left: 47vw;
+    margin-left: 46vw;
 }
  p#name {
     position: absolute;
@@ -70,13 +72,51 @@ h1 {
 h2 {
     margin: 0;
     text-align: center;
-    padding: 2vw;
+    padding: 4vw;
     font-size: 3vw;
     color:white;
+    font-family: "Aclonica", sans-serif;
 }
 .tab-titles {
     color:#9BC53D;
+    display: flex;
+    margin: 20px 0 40px;
 }
+.tab-links {
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight:500;
+    cursor: pointer;
+    position:relative;
+}
+.tab-links::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #DC1338;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+.tab-links.active-link::after{
+width: 50%;
+}
+.tab-contents ul li {
+    list-style: none;
+    margin: 10px 0;
+}
+.tab-contents ul li span{
+color: #DC1338;
+font-size:14px ;
+}
+.tab-contents{
+    display:none ;
+}
+.tab-contents.activate-tab{
+    display: block;
+}
+/* -------mywork--------------------- */
 h3 {
     margin: 0;   
 }
@@ -92,7 +132,8 @@ h3 {
 }
 #info {
     background: black;
-    height: 90vh;
+    color:white;
+    height: 50vw;
 }
 #services {
     background: linear-gradient(black 20%, #DC1338 80%);
@@ -109,25 +150,7 @@ h3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-.categories ol {
-    list-style: none;
-}
-.categories ol li {
-    font-size: 40px;
-    color: rgb(39, 41, 33);
-}
-ol.skills {
-    font-size: 40px;
-    list-style: none;
-    color:#0e9594;  
-}
-ol li {
-    font-size: 20px;
-}
-ol.contact {
-    font-size: 40px;
-    list-style: none;
-}
+
 /* --------------mywork---------------- */
 #mywork {
     background: white;
@@ -139,14 +162,10 @@ ol.contact {
     position: absolute;
     opacity: .6;
     text-transform: uppercase;
-  }
-  
-  .example-right {
     -webkit-animation: urmove 8s linear infinite; /* Safari 4.0 - 8.0 */
     white-space: nowrap;
     animation: urmove 8s linear infinite alternate;
-  }
-  
+  }`
   /* Safari 4.0 - 8.0 */
   @-webkit-keyframes urmove {
     from {
