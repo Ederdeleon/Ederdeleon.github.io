@@ -184,6 +184,14 @@ h3 {
 }
 /* ---------------footer--------------------------- */
 footer {
-    height: 12vw;
     background: black;
+}
+footer  div h5 {
+    color: #9BC53D;
+}
+footer div p {
+    color:#9BC53D;
+}
+footer p {
+    color: white;
 }
