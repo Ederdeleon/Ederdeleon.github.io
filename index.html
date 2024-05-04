@@ -33,7 +33,7 @@
             <p id="name">Hi, I'm <span class="highlight">Eder</span></p>
         </div>
          <div id="info">
-            <h2>Transforming Ideas into Interactive Web Solutions</h2>
+            <h4>Transforming Ideas into Interactive Web Solutions</h4>
             <div class="tab-titles">
                 <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
                 <p class="tab-links" onclick="opentab('education')">Education</p>
@@ -62,23 +62,23 @@
           <!-- -------------------services---------------- -->
     <div id="services">
         <div class="container">
-            <h3 class="sub-title">My Services</h1>
             <div class="services-list">
                <div>
+                    <h2>UI/UX</h2>
+                    <a href="#">See Projects</a>
+               </div> 
+               <div>
                     <h2>Web Design</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore, tenetur!</p>
-                    <a href="#">Learn More</a>
+                    <a href="#">See Projects</a>
                </div> 
                <div>
-                    <h2>UI Design</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore, tenetur!</p>
-                    <a href="#">Learn More</a>
+                    <h2>Web Development</h2>
+                    <a href="#">See Projects</a>
                </div> 
                <div>
-                    <h2>App Design</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore, tenetur!</p>
-                    <a href="#">Learn More</a>
-               </div> 
+                <h2>Graphic Design</h2>
+                <a href="#">See Projects</a>
+           </div> 
             </div>
 
         </div>
@@ -87,13 +87,26 @@
         <h3>My Work</h3>
     </div>
         
-         <div class="categories">
-            <article>
-                <p class="example-right"> Designed and Developed by Eder De Leon - 
-                    Designed and Developed by Eder De Leon - Designed and Developed by Eder De Leon - </p>
-             </article>
-         </div>
     </main>
     <footer></footer>
+    <!-- --------------------------script-info----------- -->
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+    
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("activate-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("activate-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("activate-tab");
+        }
+    
+    </script>
+    <!-- --------------------------script-info----------- -->
 </body>
 </html>
