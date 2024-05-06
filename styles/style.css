@@ -68,7 +68,6 @@ h1 {
 .highlight {
     color: #9BC53D; 
 }
-
 .services-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20vw, 1fr));
@@ -234,7 +233,6 @@ h3 {
 }
 #mywork button {
     background: black;
-    color: #9BC53D;
     font-family: "Aclonica", sans-serif;
     text-align: center;
     border-radius: 2vw;
@@ -242,6 +240,10 @@ h3 {
     width: 14vw;
     font-size: 1.4vw;
     margin-bottom: 5vw;
+}
+#mywork button a {
+    color:#9BC53D;
+    text-decoration: none;
 }
 /* ---------------footer--------------------------- */
 footer {
@@ -275,5 +277,8 @@ footer div p {
     color: white;
     text-align: center;
     margin: 2vw;
+    margin-right: 10vw;
+    margin-left:10vw ;
     font-size: 2vw;
+    border-top:#9BC53D 1px solid;
 }
