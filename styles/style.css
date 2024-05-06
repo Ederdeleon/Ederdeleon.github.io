@@ -68,9 +68,7 @@ h1 {
 .highlight {
     color: #9BC53D; 
 }
-div#services {
-    height: 100%;
-}
+
 .services-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20vw, 1fr));
@@ -92,7 +90,6 @@ div#services {
 }
 .services-list a {
     color:white;
-    text-decoration: none;
 }
 .services-list div h2 {
     font-size:3vw;
@@ -185,13 +182,34 @@ h3 {
 /* ---------------footer--------------------------- */
 footer {
     background: black;
+    display: flex;
+    flex-direction: column;
 }
-footer  div h5 {
+footer div h5 {
     color: #9BC53D;
+    font-size: 2vw;
+    font-family: "Aclonica", sans-serif;
+    margin-top: 1vw;
+    margin-bottom: 1vw;  
 }
 footer div p {
     color:#9BC53D;
+    text-align: left;
+    margin: 0;
+    font-size: 1.5vw;
 }
-footer p {
+#footer-info {
+    display: flex;
+    margin-left: 60vw;
+    margin-top: 2vw;
+    margin-bottom: 0;
+}
+#follow {
+    margin-left: 5vw;
+}
+#last {
     color: white;
+    text-align: center;
+    margin: 2vw;
+    font-size: 2vw;
 }
