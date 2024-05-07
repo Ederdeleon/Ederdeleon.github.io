@@ -150,7 +150,7 @@ font-size:1.5vw;
 /* -------mywork--------------------- */
 
 #picture-section {
-    background-image: url(eder-large.jpg);
+    background-image: url(/images/e347.webp);
     background-size: contain;
     background-position: left top;
     height: 0; /* Set the container height to full viewport height */

@@ -1,91 +1,49 @@
 body {
-    background-color:#FFFAE3;
-}
-.icon {
-    width: 100%;
-max-width: 400px;
-}
-.container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    padding: 20px;
-}
-.cdmx {
-    grid-column: 1/2;
-    grid-row: 1/2;
-}
-.first {
-    grid-column: 2/5;
-    grid-row: 1/2;
-}
-.second {
-    grid-column:1/4 ;
-    grid-row: 2/3;
-}
-.tacos {
-    grid-column: 4/5;
-    grid-row: 2/3;
-}
-.peru {
-    grid-column: 1/2;
-    grid-row: 3/4;
-}
-.third {
-    grid-column:2/5;
-    grid-row: 3/4;
-}
-.fourth {
-    grid-column:1/4;
-    grid-row: 4/5;
-}
-.fiveth {
-    grid-column:2/5;
-    grid-row: 5/6;
-}
-.sixth {
-    grid-column:1/4;
-    grid-row: 6/7;
-}
-p {
-    font-size: 20px;
-}
-h1 {
-    padding-left: 20px;
-}
-header p{
-    color: #0e9594;
-    font-weight: bolder;
-    font-size: 100px;
-    margin-left: 5%;
-}
-nav ul li {
-    font-size: 50px;   
-    margin: 10px 40px;
-    list-style: none;
-    display: inline-block;
-}
-nav ul li a{
-    text-decoration:none;
-    color: #000000;
-    position: relative;
-}
-nav ul li a::after {
-    content: '';
-    width: 0;
-    height: 4px;
-    background:#0e9594;
-    position: absolute;
-    left: 0;
-    bottom: -6px;
-    transition: 0.5s;
-}
- nav ul li a:hover::after {
-    width: 100%;
+    background-color: #ffffff;
+    margin: 0;
+    font-family: "Anek Malayalam", sans-serif;
 }
 header {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    position: absolute;
+    right: 3vw;
 }
+ nav ul li {
+    font-size: 3vw;   
+    margin: 0vw 2vw;
+    list-style: none;
+    display: inline-block;
+}
+ nav ul li a{
+    text-decoration:none;
+    color: black;
+    position: relative;
+}
+ nav ul li a::after {
+    content: '';
+    width: 0;
+    height: .3vw;
+    background:#DC1338;
+    position: absolute;
+    left: 0;
+    bottom: -.1vw;
+    transition: 0.5s;
+}
+nav ul li a:hover::after {
+    width: 100%;
+}
+#picture-section {
+    background-image: url(/images/364.webp);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.btn {
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-size: 3vw; 
+    cursor: pointer;
+  }
