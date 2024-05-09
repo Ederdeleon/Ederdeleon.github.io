@@ -9,7 +9,7 @@ header {
     right: 3vw;
 }
  nav ul li {
-    font-size: 3vw;   
+    font-size: 2vw;   
     margin: 0vw 2vw;
     list-style: none;
     display: inline-block;
@@ -44,7 +44,7 @@ nav ul li a:hover::after {
     background-color: transparent;
     border: none;
     color: black;
-    font-size: 3vw; 
+    font-size: 2vw; 
     cursor: pointer;
   }
   h1 {
