@@ -11,7 +11,7 @@ header {
     right: 3vw;
 }
  nav ul li {
-    font-size: 3vw;   
+    font-size: 2vw;   
     margin: 1vw 2vw;
     list-style: none;
     display: inline-block;
@@ -91,9 +91,10 @@ h1 {
     color:white;
 }
 .services-list div h2 {
-    font-size:3vw;
+    font-size:2.5vw;
     font-weight:500 ; 
     text-align: center;
+    font-family: "Aclonica", sans-serif;
 }
 .services-list div:hover{
     background: #9BC53D;
@@ -150,7 +151,7 @@ font-size:1.5vw;
 /* -------mywork--------------------- */
 
 #picture-section {
-    background-image: url(eder-large.jpg);
+    background-image: url(/images/e347.webp);
     background-size: contain;
     background-position: left top;
     height: 0; /* Set the container height to full viewport height */
