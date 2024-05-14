@@ -160,6 +160,10 @@ footer div p {
     margin: 0;
     font-size: 1.5vw;
 }
+footer div p:hover {
+    color:white;
+    cursor: pointer;
+}
 #footer-info {
     display: flex;
     margin-left: 60vw;

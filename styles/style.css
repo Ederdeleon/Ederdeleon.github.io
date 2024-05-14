@@ -243,9 +243,25 @@ h3 {
     width: 14vw;
     font-size: 1.4vw;
     margin-bottom: 5vw;
+    box-shadow: -10px -10px 0px 0px #9BC53D;
+    position: relative;
+    transition: box-shadow 0.5s,background 0.5s,transform 0.5s;
 }
+#mywork button:hover{
+    box-shadow: 10px 10px 0px 0px #9BC53D;
+    transform: translate(-10px,-10px);
+    background: black;
+    color:white;
+  }
+  a:active{
+    transform: translateY(10px);
+  }
 #mywork button a {
+    text-decoration: none;
     color:#9BC53D;
+}
+#mywork button a:hover {
+    color:white;
     text-decoration: none;
 }
 /* ---------------footer--------------------------- */
@@ -266,6 +282,10 @@ footer div p {
     text-align: left;
     margin: 0;
     font-size: 1.5vw;
+}
+footer div p:hover {
+    color:white;
+    cursor: pointer;
 }
 #footer-info {
     display: flex;
