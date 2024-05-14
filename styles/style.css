@@ -152,13 +152,14 @@ font-size:1.5vw;
 
 #picture-section {
     background-image: url(/images/e347.webp);
-    background-size: contain;
-    background-position: left top;
+    background-size: 100%;
+    background-position: top left;
     height: 0; /* Set the container height to full viewport height */
     width: 100%;
     justify-content: center;
     align-items: center;
     padding-top: 56.17%;
+    background-attachment: fixed;
 }
 #info {
     background: black;
