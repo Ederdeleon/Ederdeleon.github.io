@@ -73,6 +73,7 @@ h1 {
     grid-template-columns: repeat(auto-fit, minmax(20vw, 1fr));
     color: black;
     margin: 10vw 0vw;
+    cursor: pointer;
 }
 .services-list div {
     background: #DC1338;

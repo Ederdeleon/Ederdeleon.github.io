@@ -63,11 +63,11 @@
     <div id="services">
         <div class="container">
             <div class="services-list">
-               <div>
-                    <h2>UI/UX</h2>
-                    <a href="uxui.html">See Projects</a>
-               </div> 
-               <div>
+                <div id="clickable-div-ux">
+                        <h2>UI/UX</h2>
+                        <a href="uxui.html">See Projects</a>
+                </div> 
+               <div id="clickable-div-web">
                     <h2>Web Design</h2>
                     <a href="#">See Projects</a>
                </div> 
@@ -131,7 +131,10 @@
             event.currentTarget.classList.add("active-link");
             document.getElementById(tabname).classList.add("active-tab");
         }
-    
+    // --------------------------click-divs-----------------------
+    document.getElementById("clickable-div-ux").onclick = function() {
+        window.location.href = "uxui.html";
+    };
     </script>
     <!-- --------------------------script-info----------- -->
 </body>

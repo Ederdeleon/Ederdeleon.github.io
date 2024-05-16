@@ -33,7 +33,7 @@
             <div id="four"></div>
             <div id="five"></div>
             <div id="six"></div>
-            <div id="seven"></div>
+            <button id="seven">See Project</button>
         </div>
         <!-- -------------------services---------------- -->
         <div id="services">
@@ -59,6 +59,14 @@
 
             </div>
         </div>
+        <!-- ------------------btn------------ -->
+        <div class="popup">
+            <button class="close-btn">&times</button>
+            <h2>This is popup title</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac consequat leo. Etiam arcu nunc, egestas in lobortis ac, scelerisque et nisi.
+            </p>
+          </div>
     </main>
     <footer>
         <div id="footer-info">
@@ -77,5 +85,15 @@
     </div>
         <p id="last"> &#169 Designed and Developed By Eder De Leon 2024</p>
     </footer>
+    <!-- --------------------------script-info----------- -->
+    <script>
+        document.querySelector("#seven").addEventListener("click",function(){
+  document.body.classList.add("active-popup");
+});
+
+document.querySelector(".popup .close-btn").addEventListener("click",function(){
+  document.body.classList.remove("active-popup");
+});
+    </script>
 </body>
 </html>
