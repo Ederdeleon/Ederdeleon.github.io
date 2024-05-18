@@ -217,8 +217,8 @@ footer div p:hover {
     right:10px;
     width:20px;
     height:20px;
-    background:#eee;
-    color:#111;
+    background:#DC1338;
+    color:white;
     border:none;
     outline:none;
     border-radius:50%;
@@ -242,4 +242,7 @@ footer div p:hover {
     transition:top 0ms ease-in-out 0ms, 
                opacity 300ms ease-in-out,
                margin-top 300ms ease-in-out;
+  }
+  .popup img {
+    width: 100%;
   }
