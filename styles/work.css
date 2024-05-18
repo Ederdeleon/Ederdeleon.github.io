@@ -60,6 +60,7 @@ h1 {
     height: 70vw;
     padding: 12vw;
     padding-top: 0;
+    padding-bottom: 0;
     gap: 2vw;
 }
 #one {

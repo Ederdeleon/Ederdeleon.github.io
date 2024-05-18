@@ -94,6 +94,12 @@
 document.querySelector(".popup .close-btn").addEventListener("click",function(){
   document.body.classList.remove("active-popup");
 });
+document.addEventListener("click", function(event) {
+    const popup = document.querySelector(".popup");
+    if (!popup.contains(event.target) && !event.target.closest("#seven")) {
+        document.body.classList.remove("active-popup");
+    }
+});
     </script>
 </body>
 </html>
