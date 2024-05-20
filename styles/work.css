@@ -212,9 +212,9 @@ footer div p:hover {
   }
   
   .popup .close-btn{
-    position:absolute;
+    position:fixed;
     top:-5px;
-    right:10px;
+    right:20px;
     width:20px;
     height:20px;
     background:#DC1338;
