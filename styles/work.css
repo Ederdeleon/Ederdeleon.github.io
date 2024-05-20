@@ -187,10 +187,10 @@ footer div p:hover {
 }
 /* ----------------------buttons---------------- */
 .popup{
-    position:absolute;
+    position:fixed;
     top:-100px;
     left:50%; 
-    transform:translate(-50%,-50%); 
+    transform:translate(-50%,-45%); 
     width:98%;
     max-width:80vw;
     padding:20px;
@@ -225,9 +225,9 @@ footer div p:hover {
     cursor:pointer;
   }
   
-  /* body.active-popup{
+  body.active-popup{
     overflow:hidden;
-  } */
+  }
   
   body.active-popup .main{
     filter:blur(5px);
