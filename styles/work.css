@@ -100,12 +100,12 @@ h1 {
     border-radius: 2vw;
 }
 #seven {
-    background:white;
     grid-column: 3/4;
     grid-row: 6/9;
     border-radius: 2vw;
-    color: black;
+    color: white;
     font-size: 1.6vw;
+    background: #9BC53D; 
 }
 /* ------------------------services----------------- */
 .services-list {
