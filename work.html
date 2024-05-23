@@ -39,21 +39,21 @@
         <div id="services">
             <div class="container">
                 <div class="services-list">
-                <div>
+                <div id="clickable-div-ux">
                         <h2>UI/UX</h2>
                         <a href="uxui.html">See Projects</a>
                 </div> 
-                <div>
+                <div id="clickable-div-web">
                         <h2>Web Design</h2>
-                        <a href="#">See Projects</a>
+                        <a href="webdesign.html">See Projects</a>
                 </div> 
-                <div>
+                <div id="clickable-div-dev">
                         <h2>Web Development</h2>
-                        <a href="#">See Projects</a>
+                        <a href="development.html">See Projects</a>
                 </div> 
-                <div>
+                <div id="clickable-div-graphic">
                     <h2>Graphic Design</h2>
-                    <a href="#">See Projects</a>
+                    <a href="graphicdesign.html">See Projects</a>
             </div> 
                 </div>
 
@@ -97,6 +97,19 @@ document.addEventListener("click", function(event) {
         document.body.classList.remove("active-popup");
     }
 });
+ // --------------------------click-divs-----------------------
+ document.getElementById("clickable-div-ux").onclick = function() {
+        window.location.href = "uxui.html";
+    };
+    document.getElementById("clickable-div-web").onclick = function() {
+        window.location.href = "webdesign.html";
+    };
+    document.getElementById("clickable-div-dev").onclick = function() {
+        window.location.href = "development.html";
+    };
+    document.getElementById("clickable-div-graphic").onclick = function() {
+        window.location.href = "graphicdesign.html";
+    };
     </script>
 </body>
 </html>
