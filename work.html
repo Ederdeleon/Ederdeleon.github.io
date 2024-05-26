@@ -97,6 +97,20 @@ document.addEventListener("click", function(event) {
         document.body.classList.remove("active-popup");
     }
 });
+// -----------------------one---------------------
+document.querySelector("#one").addEventListener("click",function(){
+  document.body.classList.add("active-popup");
+});
+
+document.querySelector(".popup .close-btn").addEventListener("click",function(){
+  document.body.classList.remove("active-popup");
+});
+document.addEventListener("click", function(event) {
+    const popup = document.querySelector(".popup");
+    if (!popup.contains(event.target) && !event.target.closest("#one")) {
+        document.body.classList.remove("active-popup");
+    }
+});
  // --------------------------click-divs-----------------------
  document.getElementById("clickable-div-ux").onclick = function() {
         window.location.href = "uxui.html";
