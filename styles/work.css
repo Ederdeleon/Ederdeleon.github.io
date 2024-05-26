@@ -82,10 +82,15 @@ h1 {
     border-radius: 2vw;
 }
 #four {
-    background: black;
     grid-column: 1/2;
     grid-row: 4/6;
     border-radius: 2vw;
+    font-size: 1.6vw;
+    background-image: url('/images/Screenshot\ 2023-12-28\ at\ 13-30-15\ nonprofit\ My\ WordPress\ Blog.png'); /* Path to your image */
+
+    background-size: cover; /* Ensures the image covers the entire button */
+    background-position: center top;
+    border: none;
 }
 #five {
     background: black;
