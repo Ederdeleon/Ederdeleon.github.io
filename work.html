@@ -64,6 +64,11 @@
             <button class="close-btn">&times</button>
             <img src="images/Screenshot 2023-12-28 at 13-30-15 nonprofit My WordPress Blog.png" alt="">
         </div>
+        <!-- ------------------btn-four------------ -->
+        <div class="popup4">
+            <button class="close-btn4">&times</button>
+            <img src="images/TimeLefttimeleft.png" alt="">
+        </div>
     </main>
     <footer>
         <div id="footer-info">
@@ -97,18 +102,18 @@ document.addEventListener("click", function(event) {
         document.body.classList.remove("active-popup");
     }
 });
-// -----------------------one---------------------
-document.querySelector("#one").addEventListener("click",function(){
-  document.body.classList.add("active-popup");
+// -----------------------four---------------------
+document.querySelector("#four").addEventListener("click",function(){
+  document.body.classList.add("active-popup4");
 });
 
 document.querySelector(".popup .close-btn").addEventListener("click",function(){
-  document.body.classList.remove("active-popup");
+  document.body.classList.remove("active-popup4");
 });
 document.addEventListener("click", function(event) {
     const popup = document.querySelector(".popup");
-    if (!popup.contains(event.target) && !event.target.closest("#one")) {
-        document.body.classList.remove("active-popup");
+    if (!popup.contains(event.target) && !event.target.closest("#four")) {
+        document.body.classList.remove("active-popup4");
     }
 });
  // --------------------------click-divs-----------------------
