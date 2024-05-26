@@ -98,7 +98,7 @@ h1 {
     grid-row: 4/7;
     border-radius: 2vw;
     font-size: 1.6vw;
-    background-image: url('/images/Screenshot\ 2023-12-28\ at\ 13-30-15\ nonprofit\ My\ WordPress\ Blog.png'); /* Path to your image */
+    background-image: url('/images/freedom-medium.jpg'); /* Path to your image */
     background-size: cover; /* Ensures the image covers the entire button */
     background-position: center top;
     border: none;
