@@ -68,6 +68,10 @@ h1 {
     grid-column: 1/2;
     grid-row: 1/4;
     border-radius: 2vw;
+    background-image: url('/images/timecutmedium.jpg'); /* Path to your image */
+    background-size: cover; /* Ensures the image covers the entire button */
+    background-position: center top;
+    border: none;
 }
 #two {
     background: black;
@@ -97,7 +101,6 @@ h1 {
     grid-column: 3/4;
     grid-row: 4/7;
     border-radius: 2vw;
-    font-size: 1.6vw;
     background-image: url('/images/freedom-medium.jpg'); /* Path to your image */
     background-size: cover; /* Ensures the image covers the entire button */
     background-position: center top;
