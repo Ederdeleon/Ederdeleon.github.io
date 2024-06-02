@@ -28,7 +28,7 @@
         <h1>My Work</h1>
         <div id="grid">
             <button id="one"></button>
-            <div id="two"></div>
+            <button id="two"></button>
             <button id="three"></button>
             <button id="four"></button>
             <div id="five"></div>
@@ -73,6 +73,11 @@
         <div class="popup3">
             <button class="close-btn3">&times</button>
             <img src="images/crigslist.png" alt="">
+        </div>
+        <!-- ------------------btn-two------------ -->
+        <div class="popup2">
+            <button class="close-btn2">&times</button>
+            <img src="images/kaloriecase.png" alt="">
         </div>
     </main>
     <footer>
@@ -133,6 +138,20 @@ document.addEventListener("click", function(event) {
     const popup = document.querySelector(".popup");
     if (!popup.contains(event.target) && !event.target.closest("#four")) {
         document.body.classList.remove("active-popup4");
+    }
+});
+// -----------------------two---------------------
+document.querySelector("#two").addEventListener("click",function(){
+  document.body.classList.add("active-popup2");
+});
+
+document.querySelector(".popup .close-btn").addEventListener("click",function(){
+  document.body.classList.remove("active-popup2");
+});
+document.addEventListener("click", function(event) {
+    const popup = document.querySelector(".popup");
+    if (!popup.contains(event.target) && !event.target.closest("#two")) {
+        document.body.classList.remove("active-popup2");
     }
 });
  // --------------------------click-divs-----------------------
