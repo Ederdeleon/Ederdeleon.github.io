@@ -79,6 +79,11 @@
             <button class="close-btn2">&times</button>
             <img src="images/kaloriecase.png" alt="">
         </div>
+        <!-- ------------------btn-six------------ -->
+        <div class="popup6">
+            <button class="close-btn6">&times</button>
+            <img src="images/fluentflowcase.png" alt="">
+        </div>
     </main>
     <footer>
         <div id="footer-info">
@@ -154,6 +159,20 @@ document.addEventListener("click", function(event) {
         document.body.classList.remove("active-popup2");
     }
 });
+// -----------------------six---------------------
+document.querySelector("#six").addEventListener("click",function(){
+  document.body.classList.add("active-popup6");
+});
+
+document.querySelector(".popup .close-btn").addEventListener("click",function(){
+  document.body.classList.remove("active-popup6");
+});
+document.addEventListener("click", function(event) {
+    const popup = document.querySelector(".popup");
+    if (!popup.contains(event.target) && !event.target.closest("#six")) {
+        document.body.classList.remove("active-popup6");
+    }
+});
  // --------------------------click-divs-----------------------
  document.getElementById("clickable-div-ux").onclick = function() {
         window.location.href = "uxui.html";
@@ -167,6 +186,7 @@ document.addEventListener("click", function(event) {
     document.getElementById("clickable-div-graphic").onclick = function() {
         window.location.href = "graphicdesign.html";
     };
+    
     </script>
 </body>
 </html>
