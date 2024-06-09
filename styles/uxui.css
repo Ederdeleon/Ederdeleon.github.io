@@ -110,7 +110,7 @@ h1 {
     grid-column: 3/4;
     grid-row: 4/7;
     border-radius: 2vw;
-    background-image: url('#'); /* Path to your image */
+    background: black;
     background-size: cover; /* Ensures the image covers the entire button */
     background-position: center top;
     border: none;
