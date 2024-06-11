@@ -27,13 +27,13 @@
     <main>
         <h1>My Work</h1>
         <div id="grid">
-            <button id="one"></button>
-            <button id="two"></button>
-            <button id="three"></button>
-            <button id="four"></button>
-            <div id="five"></div>
-            <button id="six"></button>
-            <button id="seven"></button>
+            <a id="one" href="/pages/craigslist.html"></a>
+            <a id="two" href="/pages/craigslist.html"></a>
+            <a id="three" href="/pages/kalorietrak.html"></a>
+            <a id="four" href="/pages/timeleft.html"></a>
+            <a id="five" href="/pages/craigslist.html"></a>
+            <a id="six" href="/pages/fluentflow.html"></a>
+            <a id="seven" href="/pages/freedom.html"></a>
         </div>
         <!-- -------------------services---------------- -->
         <div id="services">
@@ -59,31 +59,6 @@
 
             </div>
         </div>
-        <!-- ------------------btn-seven------------ -->
-        <div class="popup">
-            <button class="close-btn">&times</button>
-            <img src="images/Screenshot 2023-12-28 at 13-30-15 nonprofit My WordPress Blog.png" alt="">
-        </div>
-        <!-- ------------------btn-four------------ -->
-        <div class="popup4">
-            <button class="close-btn4">&times</button>
-            <img src="images/TimeLefttimeleft.png" alt="">
-        </div>
-        <!-- ------------------btn-three------------ -->
-        <div class="popup3">
-            <button class="close-btn3">&times</button>
-            <img src="images/crigslist.png" alt="">
-        </div>
-        <!-- ------------------btn-two------------ -->
-        <div class="popup2">
-            <button class="close-btn2">&times</button>
-            <img src="images/kaloriecase.png" alt="">
-        </div>
-        <!-- ------------------btn-six------------ -->
-        <div class="popup6">
-            <button class="close-btn6">&times</button>
-            <img src="images/fluentflowcase.png" alt="">
-        </div>
     </main>
     <footer>
         <div id="footer-info">
@@ -104,75 +79,6 @@
     </footer>
     <!-- --------------------------script-info----------- -->
     <script>
-        document.querySelector("#seven").addEventListener("click",function(){
-  document.body.classList.add("active-popup");
-});
-
-document.querySelector(".popup .close-btn").addEventListener("click",function(){
-  document.body.classList.remove("active-popup");
-});
-document.addEventListener("click", function(event) {
-    const popup = document.querySelector(".popup");
-    if (!popup.contains(event.target) && !event.target.closest("#seven")) {
-        document.body.classList.remove("active-popup");
-    }
-});
-// -----------------------three---------------------
-document.querySelector("#three").addEventListener("click",function(){
-  document.body.classList.add("active-popup3");
-});
-
-document.querySelector(".popup .close-btn").addEventListener("click",function(){
-  document.body.classList.remove("active-popup3");
-});
-document.addEventListener("click", function(event) {
-    const popup = document.querySelector(".popup");
-    if (!popup.contains(event.target) && !event.target.closest("#three")) {
-        document.body.classList.remove("active-popup3");
-    }
-});
-// -----------------------four---------------------
-document.querySelector("#four").addEventListener("click",function(){
-  document.body.classList.add("active-popup4");
-});
-
-document.querySelector(".popup .close-btn").addEventListener("click",function(){
-  document.body.classList.remove("active-popup4");
-});
-document.addEventListener("click", function(event) {
-    const popup = document.querySelector(".popup");
-    if (!popup.contains(event.target) && !event.target.closest("#four")) {
-        document.body.classList.remove("active-popup4");
-    }
-});
-// -----------------------two---------------------
-document.querySelector("#two").addEventListener("click",function(){
-  document.body.classList.add("active-popup2");
-});
-
-document.querySelector(".popup .close-btn").addEventListener("click",function(){
-  document.body.classList.remove("active-popup2");
-});
-document.addEventListener("click", function(event) {
-    const popup = document.querySelector(".popup");
-    if (!popup.contains(event.target) && !event.target.closest("#two")) {
-        document.body.classList.remove("active-popup2");
-    }
-});
-// -----------------------six---------------------
-document.querySelector("#six").addEventListener("click",function(){
-  document.body.classList.add("active-popup6");
-});
-
-document.querySelector(".popup .close-btn").addEventListener("click",function(){
-  document.body.classList.remove("active-popup6");
-});
-document.addEventListener("click", function(event) {
-    const popup = document.querySelector(".popup");
-    if (!popup.contains(event.target) && !event.target.closest("#six")) {
-        document.body.classList.remove("active-popup6");
-    }
-});
  // --------------------------click-divs-----------------------
  document.getElementById("clickable-div-ux").onclick = function() {
         window.location.href = "uxui.html";
