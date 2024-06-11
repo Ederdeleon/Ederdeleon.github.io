@@ -86,3 +86,11 @@ main img {
     width: 80vw;
     margin-top: 6vw;
 }
+p {
+    width: 80vw;
+    font-family: "Anek Malayalam", sans-serif;
+}
+a {
+    font-family: "Anek Malayalam", sans-serif;
+    margin-bottom: 1vw;
+}
