@@ -41,6 +41,24 @@
             <button id="seven"></button>
             <div id="invisible"></div>
         </div>
+        <div id="services">
+            <div class="container">
+                <div class="services-list">
+                <div id="clickable-div-ux">
+                        <h2>UI/UX</h2>
+                        <a href="/uxui.html">See Projects</a>
+                </div> 
+                <div id="clickable-div-web">
+                        <h2>Web Design</h2>
+                        <a href="/webdesign.html">See Projects</a>
+                </div> 
+                <div id="clickable-div-dev">
+                        <h2>Web Development</h2>
+                        <a href="/development.html">See Projects</a>
+                </div> 
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
         <div id="footer-info">
@@ -59,5 +77,18 @@
     </div>
         <p id="last"> &#169 Designed and Developed By Eder De Leon 2024</p>
     </footer>
+    <script>
+        // --------------------------click-divs-----------------------
+        document.getElementById("clickable-div-ux").onclick = function() {
+               window.location.href = "/uxui.html";
+           };
+           document.getElementById("clickable-div-web").onclick = function() {
+               window.location.href = "/webdesign.html";
+           };
+           document.getElementById("clickable-div-dev").onclick = function() {
+               window.location.href = "/development.html";
+           };
+           
+           </script>
 </body>
 </html>
