@@ -67,7 +67,9 @@ h1 {
     grid-column: 1/2;
     grid-row: 1/4;
     border-radius: 2vw;
-    background-color: black;
+    background-image: url('/images/zenimage.png'); /* Path to your image */
+    background-size: cover; /* Ensures the image covers the entire button */
+    background-position: left top;
 }
 #two {
     background: black;

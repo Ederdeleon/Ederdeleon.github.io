@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zengarden Project</title>
+    <link rel="stylesheet" href="/styles/cases.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/index.html"><button class="btn"><i class="fa fa-home"></i></button></a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/work.html">Work</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <a href="https://www.eder-deleon.com/zengarden/" target="_blank">
+            <img src="/images/zengardenwhole.png" alt="Zen garden image">
+          </a>
+        <a href="https://www.eder-deleon.com/zengarden/" target="_blank">https://www.eder-deleon.com/zengarden/</a>
+        <p>The Css Zen Garden is a project started over 10 years ago to show the power and potential of CSS in web design. It's premise was simple: if you take a single html file, how many different ways could it be styled without modifying the html.
+            we used SASS to code the website at the beginning. We also used the atomic design principles for this website. 
+        </p>
+    </main>
+    <div id="services">
+        <div class="container">
+            <div class="services-list">
+            <div id="clickable-div-ux">
+                    <h2>UI/UX</h2>
+                    <a href="/uxui.html">See Projects</a>
+            </div> 
+            <div id="clickable-div-web">
+                    <h2>Web Design</h2>
+                    <a href="/webdesign.html">See Projects</a>
+            </div> 
+            <div id="clickable-div-dev">
+                    <h2>Web Development</h2>
+                    <a href="/development.html">See Projects</a>
+            </div> 
+            <div id="clickable-div-graphic">
+                <h2>Graphic Design</h2>
+                <a href="/graphicdesign.html">See Projects</a>
+        </div> 
+            </div>
+        </div>
+    </div>
+<footer>
+    <div id="footer-info">
+    <div id="contact">
+        <h5>Contact</h5>
+        <p>deleonoropeza@gmail.com</p>
+        <p>208 760 3919</p>
+        <p>Resume</p>
+    </div>
+    <div id="follow">
+        <h5>Follow</h5>
+        <p>LinkedIn</p>
+        <p>Behance</p>
+        <p>Instagram</p>
+    </div>
+</div>
+    <p id="last"> &#169 Designed and Developed By Eder De Leon 2024</p>
+</footer>
+<script>
+    // --------------------------click-divs-----------------------
+    document.getElementById("clickable-div-ux").onclick = function() {
+           window.location.href = "/uxui.html";
+       };
+       document.getElementById("clickable-div-web").onclick = function() {
+           window.location.href = "/webdesign.html";
+       };
+       document.getElementById("clickable-div-dev").onclick = function() {
+           window.location.href = "/development.html";
+       };
+       document.getElementById("clickable-div-graphic").onclick = function() {
+           window.location.href = "/graphicdesign.html";
+       };
+       
+       </script>
+</body>
+</html>
