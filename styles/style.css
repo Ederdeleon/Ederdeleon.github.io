@@ -361,3 +361,16 @@ footer div p:hover {
     color:white;
     cursor: pointer;
 }
+#behance {
+    color:#9BC53D;
+    text-align: left;
+    margin: 0;
+    font-size: 1.2vw;
+    text-decoration: none;
+    display: block;
+    
+}
+#behance:hover {
+    color:white;
+    cursor: pointer;
+}
