@@ -132,3 +132,17 @@ a {
 #services {
     padding: 1vw;   
 }
+/* --------------------------video------------------- */
+.video-container {
+    width: 20vw;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
