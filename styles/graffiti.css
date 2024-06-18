@@ -84,24 +84,23 @@ footer div p:hover {
     font-size: 1.2vw;
     text-decoration: none;
     
-  }
-  #linkedin:hover {
+}
+#linkedin:hover {
     color:white;
     cursor: pointer;
-  }
-  #behance {
+}
+#behance {
     color:#9BC53D;
     text-align: left;
     margin: 0;
     font-size: 1.2vw;
     text-decoration: none;
     display: block;
-    
-  }
-  #behance:hover {
+}
+#behance:hover {
     color:white;
     cursor: pointer;
-  }
+}
 /* ---------------------------main-------------------- */
 main {
     display: flex;
@@ -119,10 +118,18 @@ h1 {
 img {
     width: 80vw;
 }
-p {
+h6 {
     width: 80vw;
     font-family: "Anek Malayalam", sans-serif;
+    font-size: 1.2vw;
+    font-weight: normal;
+}
+p {
+    font-family: "Anek Malayalam", sans-serif;
     font-size: larger;
+}
+main p {
+    width: 80vw;
 }
 h2 {
     font-family: "Aclonica", sans-serif;
@@ -187,4 +194,7 @@ video {
 }
 #services {
     padding: 1vw;   
+}
+a {
+    font-family: "Anek Malayalam", sans-serif;
 }
