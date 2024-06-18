@@ -90,7 +90,10 @@ h1 {
     grid-column: 2/3;
     grid-row: 1/4;
     border-radius: 2vw;
-    display:none;
+    background-image: url('/images/artmedium.jpg'); /* Path to your image */
+    background-size: cover; /* Ensures the image covers the entire button */
+    background-position: center top;
+    border: none;
 }
 #three {
     display:none;
