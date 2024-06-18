@@ -241,4 +241,102 @@ footer div p:hover {
     color:white;
     cursor: pointer;
 }
-  
+/* -------------------------------mobile-------------------------- */
+@media (max-width: 768px) {
+    footer div h5 {
+        font-size: 3.5vw;
+    }
+    footer div p {
+        font-size: 3.2vw;
+    }
+    #linkedin {
+        font-size: 3.2vw;
+    }
+    #behance {
+        font-size: 3.2vw;
+    }
+    #last {
+        font-size: 3.5vw;
+    }
+    #footer-info {
+        margin-left: 38vw;
+        margin-top: 2vw;
+        margin-bottom: 1vw;
+    }
+    nav ul li {
+      font-size: 6vw;  
+    }
+    .btn {
+      font-size: 6vw; 
+    }
+    h1 {
+        font-size: 10vw;
+        padding-top: 10vw;
+      }
+      #services {
+        height: 85vw;
+    }
+    .services-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        height: 70vw;
+    }
+    #clickable-div-ux {
+        grid-column: 1 / 3;
+        grid-row: 1/3;
+    }
+    #clickable-div-web {
+        grid-column: 3 / 5;
+        grid-row: 1/3;
+    }
+    #clickable-div-dev {
+        grid-column: 1 / 3;
+        grid-row: 3/5;
+    }
+    #clickable-div-graphic {
+        grid-column: 3 / 5;
+        grid-row: 3/5;
+    }
+    .services-list div h2 {
+        font-size:4.5vw;
+    }
+    .services-list a {
+        font-size: 3.5vw;
+    }
+    .services-list div {
+        background: #9BC53D;
+    }
+    #grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(9, 1fr);
+    }
+    #one {
+        display:none;
+    }
+    #two {
+        grid-column: 1/2;
+        grid-row: 1/4;
+    }
+    #three {
+        grid-column: 2/3;
+        grid-row: 1/4;
+    }
+    #four {
+        grid-column: 1/2;
+        grid-row: 4/7;
+    }
+    #five {
+        grid-column: 2 / 3;
+        grid-row: 4 / 7;
+    }
+    #six {
+        grid-column: 1/2;
+        grid-row: 7/10;
+    }
+    #seven {
+        grid-column: 2/3;
+        grid-row: 7/10;
+    }
+}
