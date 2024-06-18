@@ -72,10 +72,12 @@ h1 {
     background-position: left top;
 }
 #two {
-    background: black;
     grid-column: 2/3;
     grid-row: 1/4;
     border-radius: 2vw;
+    background-image: url('/images/ederweb.png'); /* Path to your image */
+    background-size: cover; /* Ensures the image covers the entire button */
+    background-position: left top;
 }
 #three {
     grid-column: 3/4;
@@ -86,13 +88,13 @@ h1 {
     background-position: left top;
 }
 #four {
-    background: black;
+    display:none;
     grid-column: 1/2;
     grid-row: 4/7;
     border-radius: 2vw;
 }
 #five {
-    background: black;
+    display:none;
     grid-column: 2/3;
     grid-row: 4/7;
     border-radius: 2vw;
@@ -101,11 +103,7 @@ h1 {
     grid-column: 3/4;
     grid-row: 4/7;
     border-radius: 2vw;
-    font-size: 1.6vw;
-    background-image: url('/images/Screenshot\ 2023-12-28\ at\ 13-30-15\ nonprofit\ My\ WordPress\ Blog.png'); /* Path to your image */
-    background-size: cover; /* Ensures the image covers the entire button */
-    background-position: center top;
-    border: none;
+    display:none;
 }
 /* ---------------footer--------------------------- */
 footer {
