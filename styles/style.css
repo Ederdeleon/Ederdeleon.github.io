@@ -287,12 +287,12 @@ h3 {
     width: 14vw;
     font-size: 1.4vw;
     margin-bottom: 5vw;
-    box-shadow: -10px -10px 0px 0px #9BC53D;
+    box-shadow: -.5vw -.5vw .5vw 0px #9BC53D;
     position: relative;
     transition: box-shadow 0.5s,background 0.5s,transform 0.5s;
 }
 #mywork button:hover{
-    box-shadow: 10px 10px 0px 0px #9BC53D;
+    box-shadow: .5vw .5vw .5vw 0px #9BC53D;
     transform: translate(-10px,-10px);
     background: black;
     color:white;
@@ -373,4 +373,57 @@ footer div p:hover {
 #behance:hover {
     color:white;
     cursor: pointer;
+}
+/* -------------------------------mobile-------------------------- */
+@media (max-width: 768px) {
+    nav ul li {
+        font-size: 5vw;  
+    }
+    p#name {
+        font-size: 4vw;
+    }
+    h4 {
+        font-size: 5vw;
+    }
+    .tab-links {
+        font-size: 4.5vw;
+    }
+    .tab-links:hover {
+        font-size: 4.6vw;
+    }
+    .tab-contents ul li { 
+        font-size: 4vw;
+    }
+    .tab-contents ul li span{
+        font-size:3.5vw;
+        }
+    h3 {
+            font-size: 6vw;
+        }
+        footer div h5 {
+            font-size: 3.5vw;
+        }
+        footer div p {
+            font-size: 3.2vw;
+        }
+        #linkedin {
+            font-size: 3.2vw;
+        }
+        #behance {
+            font-size: 3.2vw;
+        }
+        #last {
+            font-size: 3.5vw;
+        }
+        #footer-info {
+            margin-left: 38vw;
+            margin-top: 2vw;
+            margin-bottom: 1vw;
+        }
+        #mywork button {
+            border-radius: 4vw;
+            height: 8vw;
+            width: 30vw;
+            font-size: 3.4vw;
+        }
 }
