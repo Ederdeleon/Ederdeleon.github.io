@@ -110,6 +110,12 @@ main img {
     width: 80vw;
     margin-top: 6vw;
 }
+h6 {
+    width: 80vw;
+    font-family: "Anek Malayalam", sans-serif;
+    font-size: 1.2vw;
+    font-weight: normal;
+}
 p {
     font-family: "Anek Malayalam", sans-serif;
 }
