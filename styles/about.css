@@ -227,10 +227,10 @@ nav ul li {
   font-size: 6vw; 
 }
 h1 {
-  font-size: 10vw;
+  font-size: 6.5vw;
 }
 #picture-section #p-nopadding {
-  font-size: 3vw;
+  font-size: 2.5vw;
 }
 p {
   font-size: 3vw;
@@ -260,5 +260,13 @@ p {
 }
 #picture-section {
   height: 56vh;
+}
+#picture-section {
+  height: 65vw;
+  background-size: contain;
+  background-position: top;
+  width: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 }
