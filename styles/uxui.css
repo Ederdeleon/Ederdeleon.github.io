@@ -103,11 +103,10 @@ h1 {
     grid-column: 2/3;
     grid-row: 4/7;
     border-radius: 2vw;
-    background: black;
+    background-image: url('/images/petme-medium.png'); /* Path to your image */
     background-size: cover; /* Ensures the image covers the entire button */
     background-position: center top;
     border: none;
-    display: none;
 }
 #seven {
     grid-column: 3/4;
