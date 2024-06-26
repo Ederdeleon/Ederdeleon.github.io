@@ -278,6 +278,11 @@ footer div p:hover {
     #four {
         grid-column: 2 / 3; /* Spans from column 1 to 2 */
         grid-row: 3 / 5; /* Spans from row 1 to 2 */
+        display: none;
+    }
+    #five {
+        grid-column: 2 / 3; /* Spans from column 1 to 2 */
+        grid-row: 3 / 5; /* Spans from row 1 to 2 */
     }
     .services-list a {
         font-size: 2vw;
