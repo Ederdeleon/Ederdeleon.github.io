@@ -96,10 +96,13 @@ h1 {
     border: none;
 }
 #three {
-    display:none;
     grid-column: 3/4;
     grid-row: 1/4;
     border-radius: 2vw;
+    background-image: url('/images/libkeyfinal.png'); /* Path to your image */
+    background-size: cover; /* Ensures the image covers the entire button */
+    background-position: center top;
+    border: none;
 }
 #four {
     display:none;
