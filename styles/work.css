@@ -68,7 +68,7 @@ h1 {
     grid-column: 1/2;
     grid-row: 1/4;
     border-radius: 2vw;
-    background-image: url('/images/youtube.png'); /* Path to your image */
+    background-image: url('/images/ARcasemedium.jpg'); /* Path to your image */
     background-size: cover; /* Ensures the image covers the entire button */
     background-position: center top;
     border: none;
