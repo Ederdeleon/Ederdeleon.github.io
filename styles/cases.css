@@ -175,6 +175,15 @@ video {
     height: auto;
     display: block;
 }
+.video-container-ar {
+    width: 80vw;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
 @media (max-width: 768px) {
     footer div h5 {
       font-size: 3.5vw;
