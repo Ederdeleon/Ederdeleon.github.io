@@ -65,7 +65,7 @@ h1 {
 }
 #one {
     grid-column: 1/2;
-    grid-row: 1/4;
+    grid-row: 4/7;
     border-radius: 2vw;
     background-image: url('/images/zenimage.png'); /* Path to your image */
     background-size: cover; /* Ensures the image covers the entire button */
@@ -88,10 +88,12 @@ h1 {
     background-position: left top;
 }
 #four {
-    display:none;
     grid-column: 1/2;
-    grid-row: 4/7;
+    grid-row: 1/4;
     border-radius: 2vw;
+    background-image: url('/images/portfoliodesignmedium.jpg'); /* Path to your image */
+    background-size: cover; /* Ensures the image covers the entire button */
+    background-position: left top;
 }
 #five {
     display:none;

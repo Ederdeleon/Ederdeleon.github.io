@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Development Projects</title>
-    <link rel="stylesheet" href="styles/dev.css">
+    <title>Craigslist</title>
+    <link rel="stylesheet" href="/styles/cases.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
     <!-- ------anek----- -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,22 +19,15 @@
     <header>
         <nav>
             <ul>
-                <li><a href="index.html"><button class="btn"><i class="fa fa-home"></i></button></a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="work.html">Work</a></li>
+                <li><a href="/index.html"><button class="btn"><i class="fa fa-home"></i></button></a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/work.html">Work</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <h1>Web Development Projects</h1>
-        <div id="grid">
-            <a id="one" href="/pages/zengarden.html"></a>
-            <a id="two" href="https://www.eder-deleon.com/wdd230/" target="_blank"></a>
-            <a id="three" href="/pages/youtube.html"></a>
-            <a id="four" href="/pages/portfolio.html"></a>
-            <div id="five"></div>
-            <div id="seven"></div>
-        </div>
+        <img src="/images/portfoliodesign.png" alt="">
+    </main>
         <div id="services">
             <div class="container">
                 <div class="services-list">
@@ -46,6 +39,10 @@
                         <h2>Web Design</h2>
                         <a href="/webdesign.html">See Projects</a>
                 </div> 
+                <div id="clickable-div-dev">
+                        <h2>Web Development</h2>
+                        <a href="/development.html">See Projects</a>
+                </div> 
                 <div id="clickable-div-graphic">
                     <h2>Graphic Design</h2>
                     <a href="/graphicdesign.html">See Projects</a>
@@ -53,23 +50,22 @@
                 </div>
             </div>
         </div>
-    </main>
-    <footer>
-        <div id="footer-info">
-        <div id="contact">
-            <h5>Contact</h5>
-            <p>deleonoropeza@gmail.com</p>
-            <p>208 760 3919</p>
-            <p>Resume</p>
+        <footer>
+            <div id="footer-info">
+            <div id="contact">
+                <h5>Contact</h5>
+                <p>deleonoropeza@gmail.com</p>
+                <p>208 760 3919</p>
+                <p>Resume</p>
+            </div>
+            <div id="follow">
+                <h5>Follow</h5>
+                <a id="linkedin" href="https://www.linkedin.com/in/eder-de-le%C3%B3n/" target="_blank">LinkedIn</a>
+                <a id="behance" href="https://www.behance.net/ederbedeleon" target="_blank">Behance</a>
+            </div>
         </div>
-        <div id="follow">
-            <h5>Follow</h5>
-            <a id="linkedin" href="https://www.linkedin.com/in/eder-de-le%C3%B3n/" target="_blank">LinkedIn</a>
-            <a id="behance" href="https://www.behance.net/ederbedeleon" target="_blank">Behance</a>
-        </div>
-    </div>
-        <p id="last"> &#169 Designed and Developed By Eder De Leon 2024</p>
-    </footer>
+            <p id="last"> &#169 Designed and Developed By Eder De Leon 2024</p>
+        </footer>
     <script>
         // --------------------------click-divs-----------------------
         document.getElementById("clickable-div-ux").onclick = function() {
@@ -78,10 +74,13 @@
            document.getElementById("clickable-div-web").onclick = function() {
                window.location.href = "/webdesign.html";
            };
+           document.getElementById("clickable-div-dev").onclick = function() {
+               window.location.href = "/development.html";
+           };
            document.getElementById("clickable-div-graphic").onclick = function() {
                window.location.href = "/graphicdesign.html";
            };
            
-           </script>
+    </script>
 </body>
 </html>
