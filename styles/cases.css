@@ -183,7 +183,15 @@ video {
     overflow: hidden;
     margin-top: 10px;
 }
-
+#resume {
+    color:#9BC53D;
+    font-size: 1.2vw;
+    text-decoration: none;
+}
+#resume:hover {
+    color:white;
+    cursor: pointer;
+}
 @media (max-width: 768px) {
     footer div h5 {
       font-size: 3.5vw;
@@ -197,6 +205,9 @@ video {
   #behance {
       font-size: 3.2vw;
   }
+  #resume {
+    font-size: 3.2vw;
+}
   #last {
       font-size: 3.5vw;
   }
