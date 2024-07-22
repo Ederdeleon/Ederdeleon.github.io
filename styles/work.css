@@ -132,7 +132,7 @@ h1 {
     grid-column: 3/4;
     grid-row: 6/9;
     border-radius: 2vw;
-    background-image: url('/images/freedom.jpg'); /* Path to your image */
+    background-image: url('/images/portfoliodesignmedium.jpg'); /* Path to your image */
     background-size: cover; /* Ensures the image covers the entire button */
     background-position: center top;
     border: none;
