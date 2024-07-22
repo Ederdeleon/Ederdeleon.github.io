@@ -198,6 +198,15 @@ footer div p:hover {
   color:white;
   cursor: pointer;
 }
+#resume {
+  color:#9BC53D;
+  font-size: 1.2vw;
+  text-decoration: none;
+}
+#resume:hover {
+  color:white;
+  cursor: pointer;
+}
 /* -------------------------------mobile-------------------------- */
 @media (max-width: 768px) {
   footer div h5 {
@@ -211,6 +220,9 @@ footer div p {
 }
 #behance {
     font-size: 3.2vw;
+}
+#resume {
+  font-size: 3.2vw;
 }
 #last {
     font-size: 3.5vw;
